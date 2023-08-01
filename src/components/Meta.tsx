@@ -18,7 +18,7 @@ const Meta = () => {
             <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:site" content={url} />
-            <link rel="icon" type="image/png" href="https://pbs.twimg.com/media/F2eGZgEXIAEhtBU?format=jpg&name=large" />
+            <link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/1077288626133663824/1136023638609502278/FrenBadge_2.png" />
             <meta property="og:image" content="https://pbs.twimg.com/media/F2eGZgEXIAEhtBU?format=jpg&name=large" />
             <meta name="twitter:image" content="https://pbs.twimg.com/media/F2eGZgEXIAEhtBU?format=jpg&name=large" />
         </Head>
