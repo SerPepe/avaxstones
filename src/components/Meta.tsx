@@ -1,13 +1,13 @@
 import Head from 'next/head'
 
 const Meta = () => {
-    const title = 'Avax Stones'
-    const description = 'Avax Stones. The official NFT. 100 available at 10 AVAX.'
-    const url = 'https://avax.stones.art'
+    const title = 'FrenBadge'
+    const description = 'Fren Badge. The official Badge for Fren Finance. 100 available at 125 MNT.'
+    const url = 'https://badge.fren.fi'
 
     return (
         <Head>
-            <title>Avax Stones</title>
+            <title>FrenBadge</title>
             <meta name="description" content={description} />
             <meta property="og:type" content="website" />
             <meta name="og:title" property="og:title" content={title} />
@@ -18,9 +18,9 @@ const Meta = () => {
             <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:site" content={url} />
-            <link rel="icon" type="image/png" href="https://gateway.pinata.cloud/ipfs/QmRmUH3ADEpNPFPEbhf29j7ZrXo4fhJQAkB3GZwEdK6tjv" />
-            <meta property="og:image" content="https://gateway.pinata.cloud/ipfs/QmRmUH3ADEpNPFPEbhf29j7ZrXo4fhJQAkB3GZwEdK6tjv" />
-            <meta name="twitter:image" content="https://gateway.pinata.cloud/ipfs/QmRmUH3ADEpNPFPEbhf29j7ZrXo4fhJQAkB3GZwEdK6tjv" />
+            <link rel="icon" type="image/png" href="https://pbs.twimg.com/media/F2eGZgEXIAEhtBU?format=jpg&name=large" />
+            <meta property="og:image" content="https://pbs.twimg.com/media/F2eGZgEXIAEhtBU?format=jpg&name=large" />
+            <meta name="twitter:image" content="https://pbs.twimg.com/media/F2eGZgEXIAEhtBU?format=jpg&name=large" />
         </Head>
     )
 }

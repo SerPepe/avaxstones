@@ -12,7 +12,7 @@ export default function TokenViewer() {
     return (
         <div className="space-y-2">
             <button className="underline hover:no-underline" type="button" onClick={() => setExpand((_) => !_)}>
-                View your Tokens
+                View your Badge
             </button>
             {expand && (
                 <>
@@ -23,7 +23,7 @@ export default function TokenViewer() {
                     {data && (
                         <div className="space-y-2">
                             <p>
-                                Token #{value}: {data.name ? data.name : 'Not Minted'}
+                                Badge #{value}: {data.name ? data.name : 'Not Minted'}
                             </p>
                             {data.image && <img className="rounded" src={data.image} alt="" />}
                         </div>
